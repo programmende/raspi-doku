@@ -1,5 +1,5 @@
 module.exports = {
-    base: "/raspi-doku/",
+    // base: "/raspi-doku/",
     plugins: [
     ['@vuepress/back-to-top', true],
     '@vuepress/last-updated',

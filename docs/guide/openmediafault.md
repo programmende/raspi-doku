@@ -15,7 +15,7 @@ openmediavault wurde hauptsächlich für den Einsatz in kleinen Büros oder Heim
 
 - Starte Putty und gib die IP Adresse deines PIs ein und verbinde dich mit SSH zu deinem Raspberry.
 
-- Logge dich mit dem Benutzernamen 'pi' und dem Passwort, dass du vorhin vergeben hast  auf dem Pi ein.
+- Logge dich mit dem Benutzernamen `pi` und dem Passwort, dass du vorhin vergeben hast  auf dem Pi ein.
 
 - Zuerst aktualisiere wie immer die Paketquellen und Pakete. Gib dazu folgenden Befehl in Putty ein
 ```bash
@@ -23,6 +23,7 @@ sudo apt-get update && sudo apt-get upgrade
 ```
 
 - Danach starte die Installation von OpenMediaVault indem du in Putty folgenden Befehl eingibst
+
 ```bash
 wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
 ```
@@ -56,11 +57,11 @@ sudo reboot
 
 ### Die Logindaten ändern
 
-Als erstessollten wir das Passwort ändern, denn alle OpenMediaVault Installationen besitzen bei der Installation das gleiche Passwort. Dies stellt natürlich eine Sicherheitslücke da.
+Als erstes sollten wir das Passwort ändern, denn alle OpenMediaVault Installationen besitzen bei der Installation das gleiche Passwort. Dies stellt natürlich eine Sicherheitslücke da.
 
-- Navigiere dazu im linken Navigationsmenü nach '(1) System -> (2) Allgemeine Einstellungen' und aktiviere den Tab '(3) Web Administrator Passwort'. 
+- Navigiere dazu im linken Navigationsmenü nach `(1) System -> (2) Allgemeine Einstellungen` und aktiviere den Tab `(3) Web Administrator Passwort`. 
 
-- Gib ein neues Passwort ein und speichere es mit einem Klick auf '(4) Speichern'.
+- Gib ein neues Passwort ein und speichere es mit einem Klick auf `(4) Speichern`.
 
 ![Screenshot](./openmediavault/change-password.png)
 
@@ -68,18 +69,41 @@ Als erstessollten wir das Passwort ändern, denn alle OpenMediaVault Installatio
 
 Als nächstes ändern wir den Port und das automatische Ausloggen von OpenMediaVault.
 
-- Navigiere dazu im linken Navigationsmenü nach '(1) System -> (2) Allgemeine Einstellungen' und aktiviere den Tab '(3) Web Administrator '.
+- Navigiere dazu im linken Navigationsmenü nach `(1) System -> (2) Allgemeine Einstellungen` und aktiviere den Tab `(3) Web Administrator`.
 
-- Hier ändern wir den Standartport (4) '80' auf '82' ab und stellen die (5) 'Automatische  Abmeldung' auf 60 Minuten ein.
+- Hier ändern wir den Standartport `(4) 80` auf `(4) 82` ab und stellen die `(5) Automatische  Abmeldung` auf `(5) 60 Minuten` ein.
 
-- Klicke auf (6) Speichern, um die Änderung zu speichern.
+- Klicke auf `(6) Speichern`, um die Änderung zu speichern.
 
-- In der sich daraufhin öffnenden Notificationbar klicke auf (7) 'Anwenden' um die Änderung zu übernehmen. Der Speichervorgang kann einige Zeit in Anspruch nehmen.
-
-- Danach ist das OpenMediaVault nicht mehr über den Standartport erreichbar und es wird eine Fehlermeldung angezeigt. Korrigiere die IP Adresse in deinem Browser indem du ein ':82' an die IP anfügst. 
-
-- Nun kannst du dich wieder in deinem OpenMediaVault anmelden.
+- In der sich daraufhin öffnenden Notificationbar klicke auf `(7) Anwenden` um die Änderung zu übernehmen. Der Speichervorgang kann einige Zeit in Anspruch nehmen.
 
 ![Screenshot](./openmediavault/change-port.png)
 
-### Datenträger anschließen
+::: warning Wichtig 
+Danach ist das OpenMediaVault nicht mehr über den Standartport erreichbar und es wird eine Fehlermeldung angezeigt. Korrigiere die IP Adresse in deinem Browser indem du ein `:82` an die IP anfügst.
+:::
+
+- Nun kannst du dich wieder in deinem OpenMediaVault anmelden.
+
+### Datum und Uhrzeit einstellen
+// TODO Datum und Uhrzeit 
+## Datenträger anschließen
+
+Als nächstes Schließen wir einen Datenträger in Form einer Festplatte an unser OpenMediaVault an.
+
+- Schließe zuerst die Festplatte an einen USB Port an.
+- Danach klicke im Menü `(1) System -> (2) Logische Laufwerke`
+
+// TODO Datenträger anschließen 
+
+### Dateisystem anlegen
+
+### Freigegebene Ordner anlegen
+
+### SMB/CIFS Freigabe erstellen
+
+## OMVExtras installieren
+
+### Docker installieren
+
+### Portainer installieren

@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "4773a668b6b72085e39b38fae7974b09"
+    "revision": "505cc565b304e41785c9c8f4d20272b7"
   },
   {
-    "url": "assets/css/0.styles.85efd089.css",
-    "revision": "cfeee4fdd6e2c3b1cc1325ffd3ee0fa5"
+    "url": "assets/css/0.styles.21460748.css",
+    "revision": "40c79ea94299356ecc957b0e661e7536"
   },
   {
     "url": "assets/img/change-password.e253a275.png",
@@ -126,28 +126,28 @@ self.__precacheManifest = [
     "revision": "07c9c38da13face1aa6d333ff7ef8542"
   },
   {
-    "url": "assets/js/app.2f6bf900.js",
-    "revision": "b68c325ad4cdd9c0ddd9533cc7d0a997"
+    "url": "assets/js/app.c068539e.js",
+    "revision": "fb04529903a810d993c07a61bc02eae4"
   },
   {
     "url": "guide/docker-cheatsheet.html",
-    "revision": "7cfb384c2e7b21eb5a700fdc70ecbf1b"
+    "revision": "e4e82c241f6113e5f70d7377dd7dddc1"
   },
   {
     "url": "guide/index.html",
-    "revision": "ff0b0356fffc237461b32e7983d7e3ce"
+    "revision": "b10e26035f4299e3602bc3b5ce4522e2"
   },
   {
     "url": "guide/openmediafault.html",
-    "revision": "25b8ffc4b27afd8b2bc25bbfd5b92b81"
+    "revision": "8c67df033f092dc0eb1eda3c28b754f3"
   },
   {
     "url": "guide/quick-guide.html",
-    "revision": "5f38b1a27ac6bde276bbf6ef0b50da22"
+    "revision": "372a0aabd434c7dc42f6bc5ed3b28fc7"
   },
   {
     "url": "guide/raspbian.html",
-    "revision": "880ba9b0ec60da1c99f1842118d1207c"
+    "revision": "f94d22de4799d2f3290410eddc0df316"
   },
   {
     "url": "icons/icon-128x128.png",
@@ -183,7 +183,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "426b1bffb8173a3fd718f55dccc03170"
+    "revision": "4103c209e8a387cd5f2758b31beded5b"
   },
   {
     "url": "rpi3.jpg",

@@ -83,39 +83,3 @@ Als nächstes ändern wir den Port und das automatische Ausloggen von OpenMediaV
 ![Screenshot](./openmediavault/change-port.png)
 
 ### Datenträger anschließen
-
-Folgende Hard.- und Software verwende ich für das Projekt Homeserver
-
-```yaml
-version: '3'
-
-services:
-  web:
-    image: nginx:alpine
-    volumes:
-    - ./.vuepress/dist:/usr/share/nginx/html
-    ports:
-    - "8181:80"
-    environment:
-    - NGINX_HOST=docs.zoerkler.me
-    - NGINX_PORT=80
-    labels:
-    - traefik.enable=true
-    - traefik.http.routers.raspi-doku.rule=Host(`docs.zoerkler.me`)
-    networks: 
-      - web
-networks:
-  web:
-    external: true
-
-```
-
-### Festplatte
-
-- Raspberry Pi 3 Modell b v1.2 1GB
-- Netzteil (Raspberry Pi EU & UK Power Supply)
-- 32GB Transcend UHS-I microSD Class10
-- Gehäuse
-- USB Cardreader
-- Externe 1 Terrabyte USB 3 Festplatte
-- LAN Kabel (WiFi wird nicht unterstützt)

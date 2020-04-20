@@ -15,7 +15,7 @@ module.exports = {
     themeConfig: {
         navbar: true,
       smoothScroll: false,
-      docsRepo: 'programmende/raspi-doku',
+      docsRepo: 'programmende/raspi-doku/docs',
       editLinks: true,
       editLinkText: 'Seite bearbeiten',
         nav: [

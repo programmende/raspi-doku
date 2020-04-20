@@ -1,8 +1,8 @@
 {
   "name": "Raspberry Pi Homeserver",
   "short_name": "RPI Server",
-  "theme_color": "#42b983",
-  "background_color": "#42b983",
+  "theme_color": "#c51d4a",
+  "background_color": "#c51d4a",
   "display": "standalone",
   "orientation": "portrait",
   "Scope": "/",

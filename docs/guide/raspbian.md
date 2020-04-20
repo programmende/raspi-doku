@@ -17,17 +17,17 @@ Raspbian ist ein Betriebssystem das speziell für den Raspberry Pi angepasst wur
 
 - Starte den Raspberry Pi Imager.
 
-- Wähle bei "Operating System" mit einem Klick auf "Choose OS" den Menüpunkt "Raspbian (other)" aus und wähle im darauffolgenden Menü "Raspbian Lite".
+- Wähle bei `Operating System` mit einem Klick auf `Choose OS` den Menüpunkt `Raspbian (other)` aus und wähle im darauffolgenden Menü `Raspbian Lite`.
 
-- Danach wähle unter "SD Card" mit einem Klick auf "Choose SD Card" deine eingelegte SD Karte aus.
+- Danach wähle unter `SD Card` mit einem Klick auf `Choose SD Card` deine eingelegte SD Karte aus.
 
-- Mit einem Klick auf "Write" startest du den Installationsvorgang.
+- Mit einem Klick auf `Write` startest du den Installationsvorgang.
 
 - Warte auf den Abschluss des Kopiervorganges.
 
 - Entferne die SD Karte und lege sie direkt wieder am Computer ein.
 
-- Öffne das Laufwerk "bootpartition" und erstelle eine leere Datei mit dem Namen "ssh" OHNE Dateiendung. Dies aktiviert den SSH Service der nötig ist, um sich später mit Hilfe von Putty auf dem Server anzumelden.
+- Öffne das Laufwerk `bootpartition` und erstelle eine leere Datei mit dem Namen `ssh` OHNE Dateiendung. Dies aktiviert den SSH Service der nötig ist, um sich später mit Hilfe von Putty auf dem Server anzumelden.
 
 ## Ersteinrichtung
 
@@ -49,9 +49,12 @@ Raspbian ist ein Betriebssystem das speziell für den Raspberry Pi angepasst wur
 
 - Lade dir Putty herunter. [download](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) 
 
-- Starte Putty und gib die IP Adresse deines PIs ein und verbinde dich mit SSH zu deinem Raspberry.
+- Starte Putty und gib die IP Adresse deines PIs ein und verbinde dich mit SSH zu deinem Raspberry und logge dich ein.
 
-- Der Benutzername lautet 'pi' und das Passwort lautet 'raspberry'
+:::tip Standard Login
+***Benutzername:*** pi  
+***Passwort:*** raspberry
+:::
 
 ### Passwort ändern
 Zuerst solltest du das Passwort ändern, denn alle Raspbian Installationen besitzen bei der Installation das gleiche Passwort. Dies stellt natürlich eine Sicherheitslücke da.
@@ -62,7 +65,7 @@ Gib dazu in Putty folgenden Befehl ein
 passwd
 ```
 
-Dann musst du zunächst das alte Passwort, in diesem Fall 'raspberry' eingeben. Im Anschluss kannst du dann ein neues Passwort festlegen.
+Dann musst du zunächst das alte Passwort, in diesem Fall `raspberry` eingeben. Im Anschluss kannst du dann ein neues Passwort festlegen.
 
 :::tip
 Während der Eingabe wird Ihnen das Passwort, wie bei Linux üblich, nicht angezeigt.
@@ -71,6 +74,7 @@ Während der Eingabe wird Ihnen das Passwort, wie bei Linux üblich, nicht angez
 ### System aktualisieren
 
 Zuerst aktualisiere die Paketquellen und Pakete. Gib dazu folgenden Befehl in Putty ein
+
 ```bash
 sudo apt-get update && sudo apt-get upgrade
 ```
@@ -83,9 +87,10 @@ Gib dazu in Putty folgenden Befehl ein um das Raspberry Pi Software Configuratio
 ```bash
 sudo raspi-config
 ```
+
 ### Sprache einstellen
 
-Dort stellen wir unser System erstmal auf deutsch um. Wähle dazu den Menüpunkt 'Localisation Options' aus.
+Dort stellen wir unser System erstmal auf deutsch um. Wähle dazu den Menüpunkt `Localisation Options` aus.
 
 :::tip
 Mit der Tab Taste kann man zwischen dem Dialoginhalt und den Dialog Schaltflächen wechseln.
@@ -93,11 +98,11 @@ Mit der Tab Taste kann man zwischen dem Dialoginhalt und den Dialog Schaltfläch
 
 ![Screenshot](./raspbian/raspi-config-menu-localisation.png)
 
-Im darauf folgenden Dialog wählst du den Menüeintrag 'Change Locale' aus.
+Im darauf folgenden Dialog wählst du den Menüeintrag `Change Locale` aus.
 
 ![Screenshot](./raspbian/raspi-config-menu-localisation-menu-change-locale.png)
 
-Im nächsten Dialog wählen wir dann die Sprache und das Encoding für unser System aus. In unserem Fall 'de_DE.UTF-8 UTF-8' und bestätigen das ganze mit 'Ok'.
+Im nächsten Dialog wählen wir dann die Sprache und das Encoding für unser System aus. In unserem Fall `de_DE.UTF-8 UTF-8` und bestätigen das ganze mit `Ok`.
 
 ![Screenshot](./raspbian/raspi-config-menu-localisation-change-locale-de.png)
 
@@ -107,19 +112,19 @@ Im nächsten Dialog setzen wir dann unsere gewählte Sprache als Standard. Dies 
 
 ### Zeitzone einstellen
 
-Wieder zurück im Hauptmenü öffnen wir erneut die Einstellungen für die 'Localisation Options'
+Wieder zurück im Hauptmenü öffnen wir erneut die Einstellungen für die `Localisation Options`
 
 ![Screenshot](./raspbian/raspi-config-menu-localisation.png)
 
-Im darauf folgenden Dialog wählen wir den Menüpunkt 'Change Timezone' aus.
+Im darauf folgenden Dialog wählen wir den Menüpunkt `Change Timezone` aus.
 
 ![Screenshot](./raspbian/raspi-config-menu-localisation-change-locale-menu-timezone.png)
 
-Im nächsten Dialog wählen wir dann 'Europe' als Kontinent aus.
+Im nächsten Dialog wählen wir dann `Europe` als Kontinent aus.
 
 ![Screenshot](./raspbian/raspi-config-menu-localisation-change-locale-timezone-europe.png)
 
-Zum Schluss wählen wir noch 'Berlin' als Stadt aus.
+Zum Schluss wählen wir noch `Berlin` als Stadt aus.
 
 ![Screenshot](./raspbian/raspi-config-menu-localisation-change-locale-timezone-berlin.png)
 

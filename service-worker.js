@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "ceb00071e6f7212baa6fd0359e6c3a43"
+    "revision": "cbc678e1ae48e5744c9bb71f4c528161"
   },
   {
     "url": "assets/css/0.styles.21460748.css",
@@ -40,6 +40,10 @@ self.__precacheManifest = [
   {
     "url": "assets/img/change-port.067c6e97.png",
     "revision": "067c6e976b45797462dd262ad0ebaf73"
+  },
+  {
+    "url": "assets/img/change-time.01519a8e.png",
+    "revision": "01519a8e7744905e30e44ce9b865c0a3"
   },
   {
     "url": "assets/img/loginscreen.b17a63e1.png",
@@ -78,76 +82,76 @@ self.__precacheManifest = [
     "revision": "83621669651b9a3d4bf64d1a670ad856"
   },
   {
-    "url": "assets/js/10.a1b59d1a.js",
-    "revision": "04d51a5f85f7fa2d3f4a4208bd19e84e"
+    "url": "assets/js/10.4420ff85.js",
+    "revision": "e820d2bab4f7670ed7cc8ffd961568df"
   },
   {
-    "url": "assets/js/11.158a236b.js",
-    "revision": "7df5f974f78e8998bff8abd03fd367b2"
+    "url": "assets/js/11.215cd6a2.js",
+    "revision": "cb144488fe530c515508ef6db59d8cf0"
   },
   {
     "url": "assets/js/12.dd4baab8.js",
     "revision": "d2a425d396730ae52e4d047991a0ce2a"
   },
   {
-    "url": "assets/js/13.5ad06761.js",
-    "revision": "0aed2bd931c9b961ccbf0054e4a2c1cc"
+    "url": "assets/js/13.894ab55e.js",
+    "revision": "065e561c1d233222ba101907c940ef3c"
   },
   {
-    "url": "assets/js/2.0d974955.js",
-    "revision": "232a9f689770e62906d059f723625b83"
+    "url": "assets/js/2.2dadc046.js",
+    "revision": "f9a4c560c42add56b843848dde0edcdf"
   },
   {
-    "url": "assets/js/3.bc4c1d9e.js",
-    "revision": "327c49a89f33b6adbdb4a1e388aff548"
+    "url": "assets/js/3.0f0ab211.js",
+    "revision": "876d6646cad686fd0c10614a03fef68f"
   },
   {
-    "url": "assets/js/4.241ecce3.js",
-    "revision": "f23012bf82a7af6ffac2b9f497ecbc3b"
+    "url": "assets/js/4.cd8afc6f.js",
+    "revision": "61a19b4156db5f4da96e4925e1090e50"
   },
   {
-    "url": "assets/js/5.ec34f1f7.js",
-    "revision": "526e8dcc387443661d0635430a16b065"
+    "url": "assets/js/5.dac86937.js",
+    "revision": "800f25aac50fc25fe0d2604932130602"
   },
   {
-    "url": "assets/js/6.84dbe1d0.js",
-    "revision": "573e56910615586234ad5de75766e489"
+    "url": "assets/js/6.09ee6522.js",
+    "revision": "63c052628cd7f15383f17886df00cdea"
   },
   {
-    "url": "assets/js/7.77608ca9.js",
-    "revision": "f825734fc71d3f51525fd8d0cc879910"
+    "url": "assets/js/7.9e89361e.js",
+    "revision": "179af740862c1ebddf0faa9874ff7b16"
   },
   {
-    "url": "assets/js/8.d2298aef.js",
-    "revision": "7eab2c0b5977825149d72069127156d7"
+    "url": "assets/js/8.634dbede.js",
+    "revision": "d984e1173393aacce497dc2876601b7c"
   },
   {
-    "url": "assets/js/9.91353d99.js",
-    "revision": "07c9c38da13face1aa6d333ff7ef8542"
+    "url": "assets/js/9.ee18e517.js",
+    "revision": "c5867a38e95e81c0af732bed7a5c131c"
   },
   {
-    "url": "assets/js/app.a8bf4638.js",
-    "revision": "669a4b01ccc589abe3a93248242e5490"
+    "url": "assets/js/app.62c6510d.js",
+    "revision": "9542ec4e387db5a2cda82bd3071dd007"
   },
   {
     "url": "guide/docker-cheatsheet.html",
-    "revision": "0932f3014649d0db5c589ab57099dcae"
+    "revision": "592e37da4e0d4e89d4046b22b89f58d4"
   },
   {
     "url": "guide/index.html",
-    "revision": "03b35f4081ee6710f817cdaffeb75ea0"
+    "revision": "e3cf80e5d099717a4a451a91888b6258"
   },
   {
     "url": "guide/openmediafault.html",
-    "revision": "65f65a04eebec5b558f031315eafa403"
+    "revision": "4a41052701420311ded019709f56d2b3"
   },
   {
     "url": "guide/quick-guide.html",
-    "revision": "0a41406e1031800de60571906f5e8e03"
+    "revision": "2bcc5aeaf3a1d867f91af69ab253969b"
   },
   {
     "url": "guide/raspbian.html",
-    "revision": "ebbfd6a7d2aeb182944bbfcbb7dc9def"
+    "revision": "710e3eb81b6996478ba63a6b6c3bf462"
   },
   {
     "url": "icons/icon-128x128.png",
@@ -183,7 +187,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "d451a655ee371247d7815c6c75460008"
+    "revision": "b6450add8bd806de4c6cf9b9cab04b34"
   },
   {
     "url": "rpi3.jpg",

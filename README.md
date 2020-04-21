@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/programmende/raspi-doku.svg?branch=master)](https://travis-ci.com/programmende/raspi-doku)
+
 # Raspberry Pi Homeserver
 
 In dieser Dokumentation stelle ich euch mein Raspberry Pi 3 Homeserverprojekt vor und zeige euch, welch großartiges Potential in diesem kleinen Minicomputer steckt. Dabei kann ich euch natürlich nicht das gesamte Potential des PIs offenlegen, das würde einfach den Rahmen dieses kleine Projekt sprengen. Dennoch werde ich diverse Themen wie OpenMediaVault, Docker, Portainer, Traefik, Heimdall, Netdata, Ghost, Wordpress, Nextcloud PiHole, OpenVPN, DynDNS inkl. eigener Domain, LetsEncrypt und vieles mehr näher beleuchten.

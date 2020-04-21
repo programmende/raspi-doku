@@ -86,7 +86,23 @@ Danach ist das OpenMediaVault nicht mehr über den Standartport erreichbar und e
 - Nun kannst du dich wieder in deinem OpenMediaVault anmelden.
 
 ### Datum und Uhrzeit einstellen
-// TODO Datum und Uhrzeit 
+
+Als nächstes stellen wir das Datum und die Uhrzeit ein.
+
+- Navigiere dazu im linken Navigationsmenü nach `(1) System -> (2) Datum & Zeit`.
+
+- Hier kannst du jetzt die `(3) Zeitzone` einstellen, in unserem Fall `Europe/Berlin`.
+
+- Aktiviere als nächstes den Schalter `(4) NTP Server benutzen` damit die Uhrzeit automatisch von einem Zeitserver syncronisiert wird.
+
+- Speichere die Änderungen mit einem Klick auf `(5) Speichern`.
+
+::: warning Nicht vergessen
+Um die Änderungen endgültig zu übernehmen, klicke oben in der erscheinenden Notificationbar auf `Anwenden`.
+:::
+
+![Screenshot](./openmediavault/change-time.png)
+
 ## Datenträger anschließen
 
 Als nächstes Schließen wir einen Datenträger in Form einer Festplatte an unser OpenMediaVault an.

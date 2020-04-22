@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "10bccade69d13307aa4d2eeea86ca26e"
+    "revision": "bd3ee2f9d70c92c1513a4b47b402de49"
   },
   {
     "url": "assets/css/0.styles.21460748.css",
@@ -150,24 +150,24 @@ self.__precacheManifest = [
     "revision": "4873fb828bded7410b78365294f105cb"
   },
   {
-    "url": "assets/js/app.b32006b7.js",
-    "revision": "f43a188edfbda974a0052a4726bad8a4"
+    "url": "assets/js/app.8b664d09.js",
+    "revision": "70a54e7a3fafbdac1e8a7e0fa87404bf"
   },
   {
     "url": "guide/docker-cheatsheet.html",
-    "revision": "be8b0c67e5289343e44f0ef6cee005ac"
+    "revision": "8b4225258ec0cb2ff11a743d8ec156f8"
   },
   {
     "url": "guide/index.html",
-    "revision": "f0b9594c6c4cbd661bde2518043b8266"
+    "revision": "0dd8a2ab9927484f46e2d40ca040113f"
   },
   {
     "url": "guide/openmediafault.html",
-    "revision": "7b4ff1b70f1b9c917b3032ee78d83dfe"
+    "revision": "9f348bd6e304f0edc45359ea68a4cd79"
   },
   {
     "url": "guide/raspbian.html",
-    "revision": "031fc2f8546f77c5f9a86c2c288fc335"
+    "revision": "9c6429cff5e2907df2c9fb0e4cce12a9"
   },
   {
     "url": "icons/icon-128x128.png",
@@ -203,7 +203,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "12954ad22bfa042d41a3606f95f4834c"
+    "revision": "6ccaac40e64027b4f2bab1a7789c2ff3"
   },
   {
     "url": "rpi3.jpg",

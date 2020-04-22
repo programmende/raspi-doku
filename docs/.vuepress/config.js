@@ -77,7 +77,6 @@ function getGuideSidebar(groupA, groupB) {
       title: groupB,
       collapsable: true,
       children: [
-        'quick-guide',
         'docker-cheatsheet',
       ]
     }

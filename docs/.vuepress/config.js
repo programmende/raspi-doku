@@ -48,9 +48,6 @@ module.exports = {
       {
         text: 'Guide',
         link: '/guide/'
-      }, {
-        text: 'Docker Cheatsheet',
-        link: '/guide/docker-cheatsheet.html'
       },
 
     ],
@@ -69,8 +66,7 @@ function getGuideSidebar(groupA, groupB) {
       children: [
         '',
         'raspbian',
-        'openmediafault'
-
+        'openmediafault',
       ]
     },
     {

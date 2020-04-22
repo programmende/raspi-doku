@@ -17,11 +17,29 @@ Raspbian ist ein Betriebssystem das speziell für den Raspberry Pi angepasst wur
 
 - Starte den Raspberry Pi Imager.
 
-- Wähle bei `Operating System` mit einem Klick auf `Choose OS` den Menüpunkt `Raspbian (other)` aus und wähle im darauffolgenden Menü `Raspbian Lite`.
+- Klicke unter `Operating System` auf `(1) Choose OS`.
 
-- Danach wähle unter `SD Card` mit einem Klick auf `Choose SD Card` deine eingelegte SD Karte aus.
+![Screenshot](./raspbian/raspberry-imager-01.png)
 
-- Mit einem Klick auf `Write` startest du den Installationsvorgang.
+- Wähle den Menüpunkt `(2) Raspbian (other)` aus.
+
+![Screenshot](./raspbian/raspberry-imager-02.png)
+
+- Wähle im darauffolgenden Menü `(3) Raspbian Lite` aus.
+
+![Screenshot](./raspbian/raspberry-imager-03.png)
+
+- Danach klicke unter `SD Card` auf `(4) Choose SD Card`.
+
+![Screenshot](./raspbian/raspberry-imager-04.png)
+
+- Wähle deine eingelegte SD Karte aus `(5)`.
+
+![Screenshot](./raspbian/raspberry-imager-05.png)
+
+- Mit einem Klick auf `(6) Write` startest du den Installationsvorgang.
+
+![Screenshot](./raspbian/raspberry-imager-06.png)
 
 - Warte auf den Abschluss des Kopiervorganges.
 

@@ -8,7 +8,7 @@ Alles hier gezeigte funktioniert auf dem Raspberry Pi 4 ebenso problemlos.
 
 Ich wünsche dir viel Spaß beim lernen und Umsetzen deines eigenen Homeservers.
 
-## Komponenten
+## Verwendete Komponenten
 
 Folgende Hardware und Software verwende ich für das Projekt Homeserver
 

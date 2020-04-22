@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "f2ac45ee23acbf3e295e7957a6057436"
+    "revision": "1e7beb1c67bf1c39090bd3d400bd271d"
   },
   {
     "url": "assets/css/0.styles.21460748.css",
@@ -48,6 +48,30 @@ self.__precacheManifest = [
   {
     "url": "assets/img/loginscreen.b17a63e1.png",
     "revision": "b17a63e183248acfb249d16b8f2a8591"
+  },
+  {
+    "url": "assets/img/raspberry-imager-01.07d10df4.png",
+    "revision": "07d10df4e59dcfbdb082c26f7b737dcc"
+  },
+  {
+    "url": "assets/img/raspberry-imager-02.0c1eb5b7.png",
+    "revision": "0c1eb5b76b899d7d2242d7d01e77b67c"
+  },
+  {
+    "url": "assets/img/raspberry-imager-03.9c3769eb.png",
+    "revision": "9c3769ebd5be6ce85d504bd18ec2388d"
+  },
+  {
+    "url": "assets/img/raspberry-imager-04.974b391b.png",
+    "revision": "974b391bbe95b649651c0fc705bb1378"
+  },
+  {
+    "url": "assets/img/raspberry-imager-05.3556c7ba.png",
+    "revision": "3556c7ba178c92232390a8c98d1cf8fd"
+  },
+  {
+    "url": "assets/img/raspberry-imager-06.0f64fbd0.png",
+    "revision": "0f64fbd0913eb9d37fe98b443d009dbd"
   },
   {
     "url": "assets/img/raspi-config-menu-localisation-change-locale-de.a43618dc.png",
@@ -82,76 +106,76 @@ self.__precacheManifest = [
     "revision": "83621669651b9a3d4bf64d1a670ad856"
   },
   {
-    "url": "assets/js/10.4420ff85.js",
-    "revision": "e820d2bab4f7670ed7cc8ffd961568df"
+    "url": "assets/js/10.5e806c98.js",
+    "revision": "f25cb3ef2a545165eab4f2a27c833e91"
   },
   {
-    "url": "assets/js/11.215cd6a2.js",
-    "revision": "cb144488fe530c515508ef6db59d8cf0"
+    "url": "assets/js/11.ec6828be.js",
+    "revision": "1512ac01054f67f46bc1a716c94bf745"
   },
   {
     "url": "assets/js/12.dd4baab8.js",
     "revision": "d2a425d396730ae52e4d047991a0ce2a"
   },
   {
-    "url": "assets/js/13.894ab55e.js",
-    "revision": "065e561c1d233222ba101907c940ef3c"
+    "url": "assets/js/13.64334976.js",
+    "revision": "212d23d9bec180bf5db6937f1bb71013"
   },
   {
-    "url": "assets/js/2.2dadc046.js",
-    "revision": "f9a4c560c42add56b843848dde0edcdf"
+    "url": "assets/js/2.fca99418.js",
+    "revision": "dbf6b2cee9bd8ed7773c20bd53e261aa"
   },
   {
-    "url": "assets/js/3.0f0ab211.js",
-    "revision": "876d6646cad686fd0c10614a03fef68f"
+    "url": "assets/js/3.658c285f.js",
+    "revision": "7ba596960fa1c261e45ec47cc2165152"
   },
   {
-    "url": "assets/js/4.cd8afc6f.js",
-    "revision": "61a19b4156db5f4da96e4925e1090e50"
+    "url": "assets/js/4.38e40784.js",
+    "revision": "38a541868c7ae6f996746c2d178be23f"
   },
   {
-    "url": "assets/js/5.dac86937.js",
-    "revision": "800f25aac50fc25fe0d2604932130602"
+    "url": "assets/js/5.a94a2d2b.js",
+    "revision": "95103c069f92c111ef10769fcca03c8a"
   },
   {
-    "url": "assets/js/6.09ee6522.js",
-    "revision": "63c052628cd7f15383f17886df00cdea"
+    "url": "assets/js/6.d772968e.js",
+    "revision": "bc21ff94dc0ee7c119fdeca681fdaa57"
   },
   {
-    "url": "assets/js/7.9e89361e.js",
-    "revision": "179af740862c1ebddf0faa9874ff7b16"
+    "url": "assets/js/7.e3591215.js",
+    "revision": "70b64840a604f5fff18af4626b9b909b"
   },
   {
-    "url": "assets/js/8.634dbede.js",
-    "revision": "d984e1173393aacce497dc2876601b7c"
+    "url": "assets/js/8.d60f0f28.js",
+    "revision": "208ab8ba5a0e1eb0bf9b541ced7bb799"
   },
   {
-    "url": "assets/js/9.ee18e517.js",
-    "revision": "c5867a38e95e81c0af732bed7a5c131c"
+    "url": "assets/js/9.554455da.js",
+    "revision": "d21af7e3e7f7664d959897cb8bc97d13"
   },
   {
-    "url": "assets/js/app.62c6510d.js",
-    "revision": "9542ec4e387db5a2cda82bd3071dd007"
+    "url": "assets/js/app.48163af3.js",
+    "revision": "5abe696cde6f637b3690925edbf0ce09"
   },
   {
     "url": "guide/docker-cheatsheet.html",
-    "revision": "592e37da4e0d4e89d4046b22b89f58d4"
+    "revision": "7da2edca2cbf71c327a426aed5e43a53"
   },
   {
     "url": "guide/index.html",
-    "revision": "e3cf80e5d099717a4a451a91888b6258"
+    "revision": "be1a5f72ba0c61da83b49bda73ac2946"
   },
   {
     "url": "guide/openmediafault.html",
-    "revision": "4a41052701420311ded019709f56d2b3"
+    "revision": "7693ae7c00d8e94867114a33c26d6fbb"
   },
   {
     "url": "guide/quick-guide.html",
-    "revision": "2bcc5aeaf3a1d867f91af69ab253969b"
+    "revision": "e9a299fce6264a7bab7b3f75ff50e13c"
   },
   {
     "url": "guide/raspbian.html",
-    "revision": "710e3eb81b6996478ba63a6b6c3bf462"
+    "revision": "966e0fb7df7f09b4011d14455d0c060b"
   },
   {
     "url": "icons/icon-128x128.png",
@@ -187,7 +211,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "b6450add8bd806de4c6cf9b9cab04b34"
+    "revision": "1278d817d93f613b4b58ab6aad9799a5"
   },
   {
     "url": "rpi3.jpg",

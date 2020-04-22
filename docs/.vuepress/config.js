@@ -71,7 +71,7 @@ function getGuideSidebar(groupA, groupB) {
     },
     {
       title: groupB,
-      collapsable: true,
+      collapsable: false,
       children: [
         'docker-cheatsheet',
       ]

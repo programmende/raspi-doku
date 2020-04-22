@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "1e7beb1c67bf1c39090bd3d400bd271d"
+    "revision": "10bccade69d13307aa4d2eeea86ca26e"
   },
   {
     "url": "assets/css/0.styles.21460748.css",
@@ -110,24 +110,20 @@ self.__precacheManifest = [
     "revision": "f25cb3ef2a545165eab4f2a27c833e91"
   },
   {
-    "url": "assets/js/11.ec6828be.js",
-    "revision": "1512ac01054f67f46bc1a716c94bf745"
+    "url": "assets/js/11.8b882e5c.js",
+    "revision": "55c605130d314c4ba88084eb9cc671d1"
   },
   {
-    "url": "assets/js/12.dd4baab8.js",
-    "revision": "d2a425d396730ae52e4d047991a0ce2a"
-  },
-  {
-    "url": "assets/js/13.64334976.js",
-    "revision": "212d23d9bec180bf5db6937f1bb71013"
+    "url": "assets/js/12.b0da9c9b.js",
+    "revision": "4fae1bd35ad524b1b265e3fa5aa6efbf"
   },
   {
     "url": "assets/js/2.fca99418.js",
     "revision": "dbf6b2cee9bd8ed7773c20bd53e261aa"
   },
   {
-    "url": "assets/js/3.658c285f.js",
-    "revision": "7ba596960fa1c261e45ec47cc2165152"
+    "url": "assets/js/3.900f6b41.js",
+    "revision": "53162916f6af7a85d1725819995ffd54"
   },
   {
     "url": "assets/js/4.38e40784.js",
@@ -138,8 +134,8 @@ self.__precacheManifest = [
     "revision": "95103c069f92c111ef10769fcca03c8a"
   },
   {
-    "url": "assets/js/6.d772968e.js",
-    "revision": "bc21ff94dc0ee7c119fdeca681fdaa57"
+    "url": "assets/js/6.afbfcbcf.js",
+    "revision": "6fe32585b3cdc818bb1c00b2718aab89"
   },
   {
     "url": "assets/js/7.e3591215.js",
@@ -150,32 +146,28 @@ self.__precacheManifest = [
     "revision": "208ab8ba5a0e1eb0bf9b541ced7bb799"
   },
   {
-    "url": "assets/js/9.554455da.js",
-    "revision": "d21af7e3e7f7664d959897cb8bc97d13"
+    "url": "assets/js/9.3fc64bc5.js",
+    "revision": "4873fb828bded7410b78365294f105cb"
   },
   {
-    "url": "assets/js/app.48163af3.js",
-    "revision": "5abe696cde6f637b3690925edbf0ce09"
+    "url": "assets/js/app.b32006b7.js",
+    "revision": "f43a188edfbda974a0052a4726bad8a4"
   },
   {
     "url": "guide/docker-cheatsheet.html",
-    "revision": "7da2edca2cbf71c327a426aed5e43a53"
+    "revision": "be8b0c67e5289343e44f0ef6cee005ac"
   },
   {
     "url": "guide/index.html",
-    "revision": "be1a5f72ba0c61da83b49bda73ac2946"
+    "revision": "f0b9594c6c4cbd661bde2518043b8266"
   },
   {
     "url": "guide/openmediafault.html",
-    "revision": "7693ae7c00d8e94867114a33c26d6fbb"
-  },
-  {
-    "url": "guide/quick-guide.html",
-    "revision": "e9a299fce6264a7bab7b3f75ff50e13c"
+    "revision": "7b4ff1b70f1b9c917b3032ee78d83dfe"
   },
   {
     "url": "guide/raspbian.html",
-    "revision": "966e0fb7df7f09b4011d14455d0c060b"
+    "revision": "031fc2f8546f77c5f9a86c2c288fc335"
   },
   {
     "url": "icons/icon-128x128.png",
@@ -211,7 +203,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "1278d817d93f613b4b58ab6aad9799a5"
+    "revision": "12954ad22bfa042d41a3606f95f4834c"
   },
   {
     "url": "rpi3.jpg",

@@ -67,7 +67,9 @@ Raspbian ist ein Betriebssystem das speziell für den Raspberry Pi angepasst wur
 
 - Lade dir Putty herunter. [download](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) 
 
-- Starte Putty und gib die IP Adresse deines PIs ein und verbinde dich mit SSH zu deinem Raspberry und logge dich ein.
+- Starte Putty und gib die `(1) IP Adresse` deines PIs ein und verbinde dich mit '(2) SSH' zu deinem PI indem du auf `(3) Open` klickst.
+
+![Screenshot](./raspbian/putty.png)
 
 :::tip Standard Login
 ***Benutzername:*** pi  
